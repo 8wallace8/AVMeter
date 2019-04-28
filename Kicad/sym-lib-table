@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AVMeter)(type Legacy)(uri /Users/KyleWillis/Documents/AVMeter/AVMeter.lib)(options "")(descr ""))
+  (lib (name AVMeter-rescue)(type Legacy)(uri ${KIPRJMOD}/AVMeter-rescue.lib)(options "")(descr ""))
+)

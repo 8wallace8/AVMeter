@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HDS20M-13
+D Diode bridge (pins: 1=+, 2=AC, 3=-, 4=AC)
+K rectifier acdc
+F ~
+$ENDCMP
+#
+$CMP LT6105
+D 36V Low Cost, High Side Current Sense, SOT-23-5
+K current sense
+F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
+$ENDCMP
+#
+#End Doc Library
