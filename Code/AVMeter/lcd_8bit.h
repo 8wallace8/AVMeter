@@ -17,6 +17,7 @@
 #define CONTROL_Port PORTB
 #define RS PINB0				/* Define Register Select pin */
 #define EN PINB1 				/* Define Enable signal pin */
+#define RW PINB2
 
 void LCD_Command( unsigned char cmnd );
 void LCD_Char( unsigned char data );
@@ -24,41 +25,33 @@ void LCD_Init (void);			/* LCD Initialize function */
 void LCD_String (char *str);		/* Send string to LCD function */
 void LCD_String_xy (char row, char pos, char *str);	/* Send string to LCD with xy position */
 void LCD_Clear(void);
+void LCD_Custom_Char (unsigned char loc, unsigned char *msg);
+
 
 
 void LCD_Command( unsigned char cmnd )
 {
-	LCD_Port = (LCD_Port & 0x0F) | (cmnd & 0xF0); /* sending upper nibble */
+	LCD_Port = cmnd; /* sending upper nibble */
 	CONTROL_Port &= ~ (1<<RS);		/* RS=0, command reg. */
 	CONTROL_Port |= (1<<EN);		/* Enable pulse */
 	_delay_us(1);
 	CONTROL_Port &= ~ (1<<EN);
 
-	_delay_us(200);
-
-	LCD_Port = (LCD_Port & 0x0F) | (cmnd << 4);  /* sending lower nibble */
-	CONTROL_Port |= (1<<EN);
-	_delay_us(1);
-	CONTROL_Port &= ~ (1<<EN);
 	_delay_ms(2);
+
 }
 
 
 void LCD_Char( unsigned char data )
 {
-	LCD_Port = (LCD_Port & 0x0F) | (data & 0xF0); /* sending upper nibble */
+	LCD_Port = data; /* sending upper nibble */
 	CONTROL_Port |= (1<<RS);		/* RS=1, data reg. */
 	CONTROL_Port|= (1<<EN);
 	_delay_us(1);
 	CONTROL_Port &= ~ (1<<EN);
 
-	_delay_us(200);
-
-	LCD_Port = (LCD_Port & 0x0F) | (data << 4); /* sending lower nibble */
-	CONTROL_Port |= (1<<EN);
-	_delay_us(1);
-	CONTROL_Port &= ~ (1<<EN);
 	_delay_ms(2);
+
 }
 
 void LCD_Init (void)			/* LCD Initialize function */
@@ -69,7 +62,7 @@ void LCD_Init (void)			/* LCD Initialize function */
 	_delay_ms(20);			/* LCD Power ON delay always >15ms */
 	
 	LCD_Command(0x02);		/* send for 4 bit initialization of LCD  */
-	LCD_Command(0x28);              /* 2 line, 5*7 matrix in 4-bit mode */
+	LCD_Command(0x38);              /* 2 line, 5*7 matrix in 4-bit mode */
 	LCD_Command(0x0c);              /* Display on cursor off*/
 	LCD_Command(0x06);              /* Increment cursor (shift cursor to right)*/
 	LCD_Command(0x01);              /* Clear display screen*/
@@ -100,6 +93,18 @@ void LCD_Clear()
 	LCD_Command (0x01);		/* Clear display */
 	_delay_ms(2);
 	LCD_Command (0x80);		/* Cursor at home position */
+}
+
+
+void LCD_Custom_Char (unsigned char loc, unsigned char *msg)
+{
+	unsigned char i;
+	if(loc<8)
+	{
+		LCD_Command (0x40 + (loc*8));	/* Command 0x40 and onwards forces the device to point CGRAM address */
+		for(i=0;i<8;i++)	/* Write 8 byte for generation of 1 character */
+		LCD_Char(msg[i]);
+	}
 }
 
 #endif
