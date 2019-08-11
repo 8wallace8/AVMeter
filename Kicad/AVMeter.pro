@@ -1,4 +1,4 @@
-update=4/27/2019 4:37:50 PM
+update=8/10/2019 10:35:18 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -33,6 +43,7 @@ TrackWidth2=0.254
 TrackWidth3=0.381
 TrackWidth4=0.508
 TrackWidth5=0.762
+TrackWidth6=1.27
 ViaDiameter1=0.6858
 ViaDrill1=0.3302
 dPairWidth1=0.1524
@@ -61,14 +72,4 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+SolderPasteRatio=-0

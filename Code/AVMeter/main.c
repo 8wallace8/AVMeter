@@ -98,7 +98,7 @@ void Display(uint16_t adcVoltageResult,  uint16_t adcAmpsResult, char row, int c
 		sprintf(ampsBuffer, "%4.2f A", amps); //builds buffer with 6 total characters with precision 2	
 	}	
 	else {
-		amps = (float)adcAmpsResult*.001f*1000;
+		amps = (float)adcAmpsResult;
 		sprintf(ampsBuffer, "%3.0f mA", amps); //builds buffer with 5 total characters with precision 0
 	}
 	
