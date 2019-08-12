@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\dkyle\Desktop\AVMeter\AVMeter.sch</source>
-    <date>4/20/2019 1:02:12 PM</date>
-    <tool>Eeschema (5.1.0)-1</tool>
+    <source>C:\Users\dkyle\Documents\Electronic Projects\AVMeter\Kicad\AVMeter.sch</source>
+    <date>8/11/2019 6:33:36 PM</date>
+    <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AVMeter</title>
@@ -31,7 +31,7 @@
       <value>50m</value>
       <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC4D2E</tstamp>
     </comp>
@@ -47,7 +47,7 @@
       <value>50m</value>
       <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC51DF</tstamp>
     </comp>
@@ -63,7 +63,7 @@
       <value>50m</value>
       <footprint>Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC5264</tstamp>
     </comp>
@@ -71,7 +71,7 @@
       <value>18K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC5BCF</tstamp>
     </comp>
@@ -79,7 +79,7 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC5C0E</tstamp>
     </comp>
@@ -87,7 +87,7 @@
       <value>18K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC5D37</tstamp>
     </comp>
@@ -95,7 +95,7 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC5D3E</tstamp>
     </comp>
@@ -103,7 +103,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC66CC</tstamp>
     </comp>
@@ -111,7 +111,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC6C6C</tstamp>
     </comp>
@@ -119,7 +119,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC7027</tstamp>
     </comp>
@@ -127,7 +127,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC702E</tstamp>
     </comp>
@@ -135,7 +135,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC7166</tstamp>
     </comp>
@@ -143,7 +143,7 @@
       <value>150</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC716D</tstamp>
     </comp>
@@ -151,7 +151,7 @@
       <value>LM4040DBZ-2.0</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
-      <libsource lib="Reference_Voltage" part="LM4040DBZ-2.0" description="2.048V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <libsource lib="AVMeter-rescue" part="LM4040DBZ-2.0-Reference_Voltage" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAD9129</tstamp>
     </comp>
@@ -159,7 +159,7 @@
       <value>LM321</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm321.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="LM321" description="Low Power Single Operational Amplifier, SOT-23-5"/>
+      <libsource lib="AVMeter-rescue" part="LM321-Amplifier_Operational" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BADCF79</tstamp>
     </comp>
@@ -167,7 +167,7 @@
       <value>10K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAE2C1B</tstamp>
     </comp>
@@ -175,7 +175,7 @@
       <value>1.5K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB2B221</tstamp>
     </comp>
@@ -183,7 +183,7 @@
       <value>1.5K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB2B317</tstamp>
     </comp>
@@ -191,7 +191,7 @@
       <value>1.5K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB2B379</tstamp>
     </comp>
@@ -199,7 +199,7 @@
       <value>3K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB5DD92</tstamp>
     </comp>
@@ -215,7 +215,7 @@
       <value>Screw_Terminal_01x02</value>
       <footprint>AVMeter:KF301_2Pin_5Pitch</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB33EED</tstamp>
     </comp>
@@ -223,7 +223,7 @@
       <value>Screw_Terminal_01x02</value>
       <footprint>AVMeter:KF301_2Pin_5Pitch</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB33F59</tstamp>
     </comp>
@@ -231,7 +231,7 @@
       <value>Screw_Terminal_01x02</value>
       <footprint>AVMeter:KF301_2Pin_5Pitch</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB33FA7</tstamp>
     </comp>
@@ -239,7 +239,7 @@
       <value>R_POT_TRIM</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <libsource lib="AVMeter-rescue" part="R_POT_TRIM-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB58FEC</tstamp>
     </comp>
@@ -247,7 +247,7 @@
       <value>MCP3208</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</datasheet>
-      <libsource lib="Analog_ADC" part="MCP3208" description="A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"/>
+      <libsource lib="AVMeter-rescue" part="MCP3208-Analog_ADC" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB661B3</tstamp>
     </comp>
@@ -255,7 +255,7 @@
       <value>820uf</value>
       <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBA5D64</tstamp>
     </comp>
@@ -263,7 +263,7 @@
       <value>100nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBCC8B5</tstamp>
     </comp>
@@ -271,7 +271,7 @@
       <value>10uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBE9A48</tstamp>
     </comp>
@@ -279,7 +279,7 @@
       <value>100nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBE9DEA</tstamp>
     </comp>
@@ -287,7 +287,7 @@
       <value>10uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC31C8F</tstamp>
     </comp>
@@ -295,7 +295,7 @@
       <value>100nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC31C96</tstamp>
     </comp>
@@ -303,7 +303,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC4AA1A</tstamp>
     </comp>
@@ -311,7 +311,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC4AB38</tstamp>
     </comp>
@@ -319,7 +319,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC4ABB8</tstamp>
     </comp>
@@ -327,7 +327,7 @@
       <value>220nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC63E7A</tstamp>
     </comp>
@@ -335,7 +335,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCE3B56</tstamp>
     </comp>
@@ -343,7 +343,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCE3BF2</tstamp>
     </comp>
@@ -351,7 +351,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCE3C85</tstamp>
     </comp>
@@ -359,7 +359,7 @@
       <value>Conn_02x03_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Conn_02x03_Odd_Even-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBB6A1A</tstamp>
     </comp>
@@ -367,7 +367,7 @@
       <value>220nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC094E6</tstamp>
     </comp>
@@ -375,7 +375,7 @@
       <value>220nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC0E198</tstamp>
     </comp>
@@ -383,7 +383,7 @@
       <value>Conn_01x16</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Conn_01x16-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BDF307D</tstamp>
     </comp>
@@ -391,7 +391,7 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF993A5</tstamp>
     </comp>
@@ -399,7 +399,7 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF997CE</tstamp>
     </comp>
@@ -407,7 +407,7 @@
       <value>330</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF9AAD7</tstamp>
     </comp>
@@ -415,22 +415,14 @@
       <value>100nf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0380F8</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>AVMeter:KF301_2Pin_5Pitch</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BCC3B63</tstamp>
     </comp>
     <comp ref="D2">
       <value>DIODE</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
-      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <libsource lib="AVMeter-rescue" part="DIODE-pspice" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCC443F</tstamp>
     </comp>
@@ -438,7 +430,7 @@
       <value>0.1uf</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC2DA</tstamp>
     </comp>
@@ -446,7 +438,7 @@
       <value>L7805</value>
       <footprint>AVMeter:L7805CDT-TR-DPAK</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
-      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <libsource lib="AVMeter-rescue" part="L7805-Regulator_Linear" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC37283</tstamp>
     </comp>
@@ -454,7 +446,7 @@
       <value>Conn_01x02</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Conn_01x02-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCFCA50</tstamp>
     </comp>
@@ -462,7 +454,7 @@
       <value>Conn_01x02</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="AVMeter-rescue" part="Conn_01x02-Connector_Generic" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCFCBD9</tstamp>
     </comp>
@@ -470,7 +462,7 @@
       <value>18K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD8455B</tstamp>
     </comp>
@@ -478,7 +470,7 @@
       <value>18K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD848D7</tstamp>
     </comp>
@@ -486,7 +478,7 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="AVMeter-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAE2B7E</tstamp>
     </comp>
@@ -494,7 +486,7 @@
       <value>820uf</value>
       <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB27C2D</tstamp>
     </comp>
@@ -502,7 +494,7 @@
       <value>820uf</value>
       <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB28157</tstamp>
     </comp>
@@ -510,9 +502,25 @@
       <value>820uf</value>
       <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB6B56E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>AVMeter:KF301_3Pin_5Pitch</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AVMeter-rescue" part="Screw_Terminal_01x03-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5220A3</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>220nf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="AVMeter-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D510CE0</tstamp>
     </comp>
   </components>
   <libparts>
@@ -556,114 +564,39 @@
         <pin num="28" name="PC5" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="AVMeter-rescue" part="LT6105-AVMeter">
+    <libpart lib="AVMeter-rescue" part="C-Device">
       <footprints>
-        <fp>SOT*23*</fp>
+        <fp>C_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LT6105-AVMeter</field>
-        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
       </fields>
       <pins>
-        <pin num="1" name="-" type="input"/>
-        <pin num="2" name="V+" type="power_in"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="~" type="openCol"/>
-        <pin num="8" name="+" type="input"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Operational" part="LM321">
-      <description>Low Power Single Operational Amplifier, SOT-23-5</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm321.pdf</docs>
+    <libpart lib="AVMeter-rescue" part="Conn_01x02-Connector_Generic">
       <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM321</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+" type="input"/>
-        <pin num="2" name="V-" type="power_in"/>
-        <pin num="3" name="-" type="input"/>
-        <pin num="4" name="~" type="output"/>
-        <pin num="5" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Analog_ADC" part="MCP3208">
-      <aliases>
-        <alias>MCP3008</alias>
-      </aliases>
-      <description>A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</docs>
-      <footprints>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP3208</field>
-      </fields>
-      <pins>
-        <pin num="1" name="CH0" type="input"/>
-        <pin num="2" name="CH1" type="input"/>
-        <pin num="3" name="CH2" type="input"/>
-        <pin num="4" name="CH3" type="input"/>
-        <pin num="5" name="CH4" type="input"/>
-        <pin num="6" name="CH5" type="input"/>
-        <pin num="7" name="CH6" type="input"/>
-        <pin num="8" name="CH7" type="input"/>
-        <pin num="9" name="DGND" type="power_in"/>
-        <pin num="10" name="~CS~/SHDN" type="input"/>
-        <pin num="11" name="Din" type="input"/>
-        <pin num="12" name="Dout" type="output"/>
-        <pin num="13" name="CLK" type="input"/>
-        <pin num="14" name="AGND" type="power_in"/>
-        <pin num="15" name="Vref" type="power_in"/>
-        <pin num="16" name="Vdd" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Screw_Terminal_01x02">
-      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TerminalBlock*:*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
+    <libpart lib="AVMeter-rescue" part="Conn_01x16-Connector_Generic">
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x16">
-      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x16</field>
+        <field name="Value">Conn_01x16-Connector_Generic</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -684,15 +617,13 @@
         <pin num="16" name="Pin_16" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
-      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
+    <libpart lib="AVMeter-rescue" part="Conn_02x03_Odd_Even-Connector_Generic">
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Value">Conn_02x03_Odd_Even-Connector_Generic</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -703,89 +634,17 @@
         <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
+    <libpart lib="AVMeter-rescue" part="DIODE-pspice">
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-pspice</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R_POT_TRIM">
-      <description>Trim-potentiometer</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Potentiometer*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">RV</field>
-        <field name="Value">R_POT_TRIM</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Reference_Voltage" part="LM4040DBZ-2.0">
-      <aliases>
-        <alias>LM4040DBZ-2.5</alias>
-        <alias>LM4040DBZ-3</alias>
-        <alias>LM4040DBZ-4.1</alias>
-        <alias>LM4040DBZ-5</alias>
-        <alias>LM4040DBZ-8.2</alias>
-        <alias>LM4040DBZ-10</alias>
-      </aliases>
-      <description>2.048V Precision Micropower Shunt Voltage Reference, SOT-23</description>
-      <docs>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM4040DBZ-2.0</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Regulator_Linear" part="L7805">
-      <aliases>
-        <alias>L7806</alias>
-        <alias>L7808</alias>
-        <alias>L7885</alias>
-        <alias>L7809</alias>
-        <alias>L7812</alias>
-        <alias>L7815</alias>
-        <alias>L7818</alias>
-        <alias>L7824</alias>
-      </aliases>
-      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
-      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+    <libpart lib="AVMeter-rescue" part="L7805-Regulator_Linear">
       <footprints>
         <fp>TO?252*</fp>
         <fp>TO?263*</fp>
@@ -793,7 +652,7 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L7805</field>
+        <field name="Value">L7805-Regulator_Linear</field>
       </fields>
       <pins>
         <pin num="1" name="IN" type="power_in"/>
@@ -801,222 +660,318 @@
         <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="pspice" part="DIODE">
-      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
-      <docs>~</docs>
+    <libpart lib="AVMeter-rescue" part="LM321-Amplifier_Operational">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">DIODE</field>
+        <field name="Reference">U</field>
+        <field name="Value">LM321-Amplifier_Operational</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="input"/>
-        <pin num="2" name="A" type="input"/>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="LM4040DBZ-2.0-Reference_Voltage">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040DBZ-2.0-Reference_Voltage</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="LT6105-AVMeter">
+      <footprints>
+        <fp>SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6105-AVMeter</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="~" type="openCol"/>
+        <pin num="8" name="+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="MCP3208-Analog_ADC">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3208-Analog_ADC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="input"/>
+        <pin num="2" name="CH1" type="input"/>
+        <pin num="3" name="CH2" type="input"/>
+        <pin num="4" name="CH3" type="input"/>
+        <pin num="5" name="CH4" type="input"/>
+        <pin num="6" name="CH5" type="input"/>
+        <pin num="7" name="CH6" type="input"/>
+        <pin num="8" name="CH7" type="input"/>
+        <pin num="9" name="DGND" type="power_in"/>
+        <pin num="10" name="~CS~/SHDN" type="input"/>
+        <pin num="11" name="Din" type="input"/>
+        <pin num="12" name="Dout" type="output"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="Vref" type="power_in"/>
+        <pin num="16" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="R_POT_TRIM-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="Screw_Terminal_01x02-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AVMeter-rescue" part="Screw_Terminal_01x03-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="AVMeter-rescue">
-      <uri>C:\Users\dkyle\Desktop\AVMeter/AVMeter-rescue.lib</uri>
-    </library>
-    <library logical="Amplifier_Operational">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
-    </library>
-    <library logical="Analog_ADC">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Analog_ADC.lib</uri>
-    </library>
-    <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
-    </library>
-    <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
-    </library>
-    <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
-    </library>
-    <library logical="Reference_Voltage">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Reference_Voltage.lib</uri>
-    </library>
-    <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
-    </library>
-    <library logical="pspice">
-      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+      <uri>C:\Users\dkyle\Documents\Electronic Projects\AVMeter\Kicad/AVMeter-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="E">
-      <node ref="U6" pin="15"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="2" name="RW">
-      <node ref="J1" pin="5"/>
-      <node ref="U6" pin="16"/>
-    </net>
-    <net code="3" name="MOSI_Bus">
+    <net code="1" name="MOSI_Bus">
       <node ref="R22" pin="2"/>
       <node ref="U5" pin="11"/>
     </net>
-    <net code="4" name="SCK_Bus">
+    <net code="2" name="SCK_Bus">
       <node ref="R24" pin="2"/>
       <node ref="U5" pin="13"/>
     </net>
-    <net code="5" name="Net-(J1-Pad3)">
-      <node ref="RV1" pin="2"/>
-      <node ref="J1" pin="3"/>
+    <net code="3" name="MISO_Bus">
+      <node ref="R23" pin="2"/>
+      <node ref="U5" pin="12"/>
     </net>
-    <net code="6" name="RS">
-      <node ref="J1" pin="4"/>
+    <net code="4" name="RS">
       <node ref="U6" pin="14"/>
+      <node ref="J1" pin="4"/>
     </net>
-    <net code="7" name="MISO">
-      <node ref="R23" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="U6" pin="18"/>
+    <net code="5" name="RW">
+      <node ref="J1" pin="5"/>
+      <node ref="U6" pin="16"/>
     </net>
-    <net code="8" name="SCK">
-      <node ref="J6" pin="3"/>
-      <node ref="R24" pin="1"/>
-      <node ref="U6" pin="19"/>
+    <net code="6" name="E">
+      <node ref="U6" pin="15"/>
+      <node ref="J1" pin="6"/>
     </net>
-    <net code="9" name="MOSI">
-      <node ref="J6" pin="4"/>
-      <node ref="U6" pin="17"/>
-      <node ref="R22" pin="1"/>
-    </net>
-    <net code="10" name="RESET">
+    <net code="7" name="RESET">
       <node ref="J6" pin="5"/>
       <node ref="U6" pin="1"/>
     </net>
+    <net code="8" name="MISO">
+      <node ref="U6" pin="18"/>
+      <node ref="R23" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="9" name="SCK">
+      <node ref="J6" pin="3"/>
+      <node ref="U6" pin="19"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="10" name="MOSI">
+      <node ref="R22" pin="1"/>
+      <node ref="U6" pin="17"/>
+      <node ref="J6" pin="4"/>
+    </net>
     <net code="11" name="GND">
-      <node ref="C12" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U6" pin="8"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="U4" pin="1"/>
       <node ref="U4" pin="2"/>
+      <node ref="U1" pin="4"/>
       <node ref="U2" pin="4"/>
-      <node ref="R2" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="1"/>
       <node ref="D1" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U6" pin="22"/>
+      <node ref="U6" pin="8"/>
       <node ref="C17" pin="2"/>
-      <node ref="J5" pin="2"/>
       <node ref="U7" pin="2"/>
-      <node ref="C16" pin="2"/>
+      <node ref="R14" pin="2"/>
       <node ref="R15" pin="2"/>
       <node ref="R16" pin="2"/>
-      <node ref="U6" pin="22"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="J6" pin="6"/>
-      <node ref="C9" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J5" pin="3"/>
       <node ref="U5" pin="14"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C7" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C9" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J1" pin="16"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U5" pin="9"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C8" pin="2"/>
+      <node ref="J6" pin="6"/>
       <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
       <node ref="C13" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C14" pin="2"/>
       <node ref="C2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
     </net>
     <net code="12" name="VCC">
+      <node ref="U6" pin="7"/>
+      <node ref="R20" pin="1"/>
       <node ref="U5" pin="16"/>
-      <node ref="J7" pin="2"/>
       <node ref="J8" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J1" pin="15"/>
       <node ref="U4" pin="5"/>
       <node ref="U3" pin="2"/>
       <node ref="U2" pin="2"/>
       <node ref="U1" pin="2"/>
-      <node ref="R20" pin="1"/>
-      <node ref="U6" pin="7"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U7" pin="3"/>
-      <node ref="C17" pin="1"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="J1" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="J6" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="J1" pin="15"/>
       <node ref="C3" pin="1"/>
-      <node ref="C16" pin="1"/>
+      <node ref="J1" pin="2"/>
     </net>
-    <net code="13" name="MISO_Bus">
-      <node ref="R23" pin="2"/>
-      <node ref="U5" pin="12"/>
-    </net>
-    <net code="14" name="5Vs_Out">
-      <node ref="J3" pin="2"/>
-      <node ref="R25" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="15" name="Net-(C14-Pad1)">
-      <node ref="C15" pin="1"/>
-      <node ref="C18" pin="1"/>
+    <net code="13" name="Net-(C14-Pad1)">
       <node ref="C14" pin="1"/>
       <node ref="U7" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
       <node ref="C20" pin="1"/>
       <node ref="D2" pin="2"/>
-      <node ref="C19" pin="1"/>
     </net>
-    <net code="16" name="BTN1">
-      <node ref="U6" pin="24"/>
-      <node ref="J7" pin="1"/>
+    <net code="14" name="5Vs_Out">
+      <node ref="R25" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="15" name="+6Vin">
+      <node ref="D2" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="16" name="-Vin">
+      <node ref="J5" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U3" pin="4"/>
     </net>
     <net code="17" name="BTN2">
-      <node ref="U6" pin="25"/>
       <node ref="J8" pin="1"/>
+      <node ref="U6" pin="25"/>
     </net>
-    <net code="18" name="+6V">
-      <node ref="J5" pin="1"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="19" name="+Vs_Out">
-      <node ref="R7" pin="1"/>
+    <net code="18" name="+Vs_Out">
       <node ref="R26" pin="1"/>
       <node ref="R12" pin="1"/>
+      <node ref="R7" pin="1"/>
       <node ref="R3" pin="2"/>
       <node ref="J2" pin="2"/>
     </net>
-    <net code="20" name="Net-(U6-Pad26)">
-      <node ref="U6" pin="26"/>
+    <net code="19" name="Net-(U6-Pad28)">
+      <node ref="U6" pin="28"/>
     </net>
-    <net code="21" name="D0">
-      <node ref="J1" pin="7"/>
-      <node ref="U6" pin="2"/>
-    </net>
-    <net code="22" name="Net-(U6-Pad20)">
+    <net code="20" name="Net-(U6-Pad20)">
       <node ref="U6" pin="20"/>
     </net>
-    <net code="23" name="Net-(U6-Pad21)">
+    <net code="21" name="Net-(U6-Pad21)">
       <node ref="U6" pin="21"/>
     </net>
-    <net code="24" name="CS">
+    <net code="22" name="CS">
       <node ref="U6" pin="23"/>
       <node ref="U5" pin="10"/>
+    </net>
+    <net code="23" name="BTN1">
+      <node ref="U6" pin="24"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U6-Pad26)">
+      <node ref="U6" pin="26"/>
     </net>
     <net code="25" name="Net-(U6-Pad27)">
       <node ref="U6" pin="27"/>
     </net>
-    <net code="26" name="Net-(U6-Pad28)">
-      <node ref="U6" pin="28"/>
+    <net code="26" name="D0">
+      <node ref="J1" pin="7"/>
+      <node ref="U6" pin="2"/>
     </net>
     <net code="27" name="D1">
-      <node ref="U6" pin="3"/>
       <node ref="J1" pin="8"/>
+      <node ref="U6" pin="3"/>
     </net>
     <net code="28" name="D2">
       <node ref="J1" pin="9"/>
@@ -1027,128 +982,131 @@
       <node ref="U6" pin="5"/>
     </net>
     <net code="30" name="D4">
-      <node ref="J1" pin="11"/>
       <node ref="U6" pin="6"/>
+      <node ref="J1" pin="11"/>
     </net>
-    <net code="31" name="Net-(U6-Pad10)">
-      <node ref="U6" pin="10"/>
+    <net code="31" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
     </net>
     <net code="32" name="D5">
-      <node ref="J1" pin="12"/>
       <node ref="U6" pin="11"/>
+      <node ref="J1" pin="12"/>
     </net>
-    <net code="33" name="D6">
+    <net code="33" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="34" name="D6">
       <node ref="U6" pin="12"/>
       <node ref="J1" pin="13"/>
     </net>
-    <net code="34" name="D7">
-      <node ref="J1" pin="14"/>
+    <net code="35" name="D7">
       <node ref="U6" pin="13"/>
+      <node ref="J1" pin="14"/>
     </net>
-    <net code="35" name="Net-(R10-Pad2)">
-      <node ref="U3" pin="8"/>
+    <net code="36" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2"/>
+      <node ref="U3" pin="8"/>
     </net>
-    <net code="36" name="Net-(R7-Pad2)">
+    <net code="37" name="Net-(R7-Pad2)">
       <node ref="R7" pin="2"/>
       <node ref="U1" pin="1"/>
     </net>
-    <net code="37" name="Net-(R6-Pad2)">
+    <net code="38" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2"/>
       <node ref="U1" pin="8"/>
     </net>
-    <net code="38" name="Net-(R9-Pad2)">
-      <node ref="U2" pin="1"/>
+    <net code="39" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2"/>
+      <node ref="U2" pin="1"/>
     </net>
-    <net code="39" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
+    <net code="40" name="Net-(R8-Pad2)">
       <node ref="U2" pin="8"/>
+      <node ref="R8" pin="2"/>
     </net>
-    <net code="40" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
+    <net code="41" name="Net-(R11-Pad2)">
       <node ref="U3" pin="1"/>
-    </net>
-    <net code="41" name="-Vs">
-      <node ref="R5" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="R10" pin="1"/>
-      <node ref="J4" pin="1"/>
+      <node ref="R11" pin="2"/>
     </net>
     <net code="42" name="Net-(R19-Pad1)">
       <node ref="R21" pin="2"/>
-      <node ref="R19" pin="1"/>
       <node ref="U4" pin="3"/>
+      <node ref="R19" pin="1"/>
     </net>
-    <net code="43" name="Net-(U6-Pad9)">
-      <node ref="U6" pin="9"/>
+    <net code="43" name="-Vs_Out">
+      <node ref="R5" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R19" pin="2"/>
     </net>
-    <net code="44" name="Net-(C10-Pad1)">
-      <node ref="U5" pin="15"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C10" pin="1"/>
-    </net>
-    <net code="45" name="5Vs_ADC">
-      <node ref="C1" pin="1"/>
-      <node ref="R25" pin="2"/>
-      <node ref="U5" pin="4"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="46" name="-I_ADC">
-      <node ref="R16" pin="1"/>
-      <node ref="U3" pin="5"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U5" pin="5"/>
-    </net>
-    <net code="47" name="-Vs_ADC">
-      <node ref="U5" pin="6"/>
-      <node ref="U4" pin="4"/>
-      <node ref="R21" pin="1"/>
-      <node ref="C13" pin="1"/>
-    </net>
-    <net code="48" name="Net-(U5-Pad7)">
+    <net code="44" name="Net-(U5-Pad7)">
       <node ref="U5" pin="7"/>
     </net>
-    <net code="49" name="Net-(U5-Pad8)">
+    <net code="45" name="Net-(U5-Pad8)">
       <node ref="U5" pin="8"/>
     </net>
-    <net code="50" name="5I_ADC">
-      <node ref="U2" pin="5"/>
-      <node ref="U5" pin="3"/>
-      <node ref="R15" pin="1"/>
-      <node ref="C7" pin="1"/>
+    <net code="46" name="Net-(C10-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="51" name="-Vs_Out">
-      <node ref="R11" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="J4" pin="2"/>
+    <net code="47" name="-Vs_ADC">
+      <node ref="U4" pin="4"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="R21" pin="1"/>
     </net>
-    <net code="52" name="+Vs">
+    <net code="48" name="+Vs">
       <node ref="R3" pin="1"/>
       <node ref="J2" pin="1"/>
       <node ref="R6" pin="1"/>
     </net>
-    <net code="53" name="5Vs">
-      <node ref="R4" pin="1"/>
+    <net code="49" name="5Vs">
       <node ref="J3" pin="1"/>
       <node ref="R8" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="54" name="+I_ADC">
-      <node ref="R14" pin="1"/>
+    <net code="50" name="-Vs">
+      <node ref="R11" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="51" name="+I_ADC">
       <node ref="U5" pin="1"/>
+      <node ref="R14" pin="1"/>
       <node ref="C6" pin="1"/>
       <node ref="U1" pin="5"/>
     </net>
-    <net code="55" name="+Vs_ADC">
-      <node ref="R13" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R26" pin="2"/>
-      <node ref="R12" pin="2"/>
+    <net code="52" name="+Vs_ADC">
       <node ref="U5" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="53" name="5I_ADC">
+      <node ref="U5" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="54" name="5Vs_ADC">
+      <node ref="U5" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="55" name="-I_ADC">
+      <node ref="C8" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="56" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="RV1" pin="2"/>
     </net>
   </nets>
 </export>

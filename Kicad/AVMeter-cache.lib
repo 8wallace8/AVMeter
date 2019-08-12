@@ -44,93 +44,29 @@ X XTAL1/PB6 9 600 600 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# AVMeter-rescue_LT6105-AVMeter
+# AVMeter-rescue_C-Device
 #
-DEF AVMeter-rescue_LT6105-AVMeter U 0 5 Y Y 1 F N
-F0 "U" 50 200 50 H V C CNN
-F1 "AVMeter-rescue_LT6105-AVMeter" 0 -200 50 H V L CNN
-F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 0 0 50 H I C CNN
-F3 "" 50 200 50 H I C CNN
-$FPLIST
- SOT*23*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X - 1 -300 -100 100 R 50 50 1 1 I
-X V+ 2 -100 300 150 D 50 50 1 1 W
-X V- 4 -100 -300 150 U 50 50 1 1 W
-X ~ 5 300 0 100 L 50 50 1 1 C
-X + 8 -300 100 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Amplifier_Operational_LM321
-#
-DEF Amplifier_Operational_LM321 U 0 5 Y Y 1 F N
-F0 "U" 0 300 50 H V L CNN
-F1 "Amplifier_Operational_LM321" 0 200 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
+DEF AVMeter-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "AVMeter-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SOT?23*
+ C_*
 $ENDFPLIST
 DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X + 1 -300 100 100 R 50 50 1 1 I
-X V- 2 -100 -300 150 U 50 50 1 1 W
-X - 3 -300 -100 100 R 50 50 1 1 I
-X ~ 4 300 0 100 L 50 50 1 1 O
-X V+ 5 -100 300 150 D 50 50 1 1 W
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Analog_ADC_MCP3208
+# AVMeter-rescue_Conn_01x02-Connector_Generic
 #
-DEF Analog_ADC_MCP3208 U 0 40 Y Y 1 F N
-F0 "U" -200 525 50 H V R CNN
-F1 "Analog_ADC_MCP3208" -200 450 50 H V R CNN
-F2 "" 100 100 50 H I C CNN
-F3 "" 100 100 50 H I C CNN
-ALIAS MCP3008
-$FPLIST
- DIP*W7.62mm*
- SOIC*3.9x9.9mm*P1.27mm*
-$ENDFPLIST
-DRAW
-T 0 -25 50 50 0 0 0 ADC Normal 0 C C
-T 900 235 -115 50 0 0 0 CNTRL Normal 0 L B
-T 900 -250 -50 50 0 0 0 MUX Normal 0 C C
-S 150 -150 275 150 0 1 0 N
-S 500 -500 -500 400 0 1 10 f
-P 2 0 1 0 -150 50 -200 50 N
-P 2 0 1 0 75 50 150 50 N
-P 5 0 1 0 -300 350 -300 -450 -200 -400 -200 300 -300 350 N
-P 5 0 1 0 150 -125 -150 -125 -150 -450 -250 -450 -250 -425 N
-P 6 0 1 0 75 125 75 -25 -100 -25 -150 50 -100 125 75 125 N
-X CH0 1 -600 300 100 R 50 50 1 1 I
-X ~CS~/SHDN 10 600 -200 100 L 50 50 1 1 I
-X Din 11 600 -100 100 L 50 50 1 1 I
-X Dout 12 600 0 100 L 50 50 1 1 O
-X CLK 13 600 100 100 L 50 50 1 1 I C
-X AGND 14 -100 -600 100 U 50 50 1 1 W
-X Vref 15 -100 500 100 D 50 50 1 1 W
-X Vdd 16 200 500 100 D 50 50 1 1 W
-X CH1 2 -600 200 100 R 50 50 1 1 I
-X CH2 3 -600 100 100 R 50 50 1 1 I
-X CH3 4 -600 0 100 R 50 50 1 1 I
-X CH4 5 -600 -100 100 R 50 50 1 1 I
-X CH5 6 -600 -200 100 R 50 50 1 1 I
-X CH6 7 -600 -300 100 R 50 50 1 1 I
-X CH7 8 -600 -400 100 R 50 50 1 1 I
-X DGND 9 200 -600 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_01x02
-#
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+DEF AVMeter-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F1 "AVMeter-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -145,11 +81,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x16
+# AVMeter-rescue_Conn_01x16-Connector_Generic
 #
-DEF Connector_Generic_Conn_01x16 J 0 40 Y N 1 F N
+DEF AVMeter-rescue_Conn_01x16-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Generic_Conn_01x16" 0 -900 50 H V C CNN
+F1 "AVMeter-rescue_Conn_01x16-Connector_Generic" 0 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -192,11 +128,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x03_Odd_Even
+# AVMeter-rescue_Conn_02x03_Odd_Even-Connector_Generic
 #
-DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF AVMeter-rescue_Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "AVMeter-rescue_Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -219,11 +155,196 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Screw_Terminal_01x02
+# AVMeter-rescue_DIODE-pspice
 #
-DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+DEF AVMeter-rescue_DIODE-pspice D 0 40 Y N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "AVMeter-rescue_DIODE-pspice" 0 -175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 75 100 75 -100 N
+P 3 0 1 0 -75 100 -75 -100 75 0 F
+X K 1 -200 0 150 R 50 50 1 1 I
+X A 2 200 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_GND-power
+#
+DEF AVMeter-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "AVMeter-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_L7805-Regulator_Linear
+#
+DEF AVMeter-rescue_L7805-Regulator_Linear U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "AVMeter-rescue_L7805-Regulator_Linear" 0 125 50 H V L CNN
+F2 "" 25 -150 50 H I L CIN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ TO?252*
+ TO?263*
+ TO?220*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_LM321-Amplifier_Operational
+#
+DEF AVMeter-rescue_LM321-Amplifier_Operational U 0 5 Y Y 1 F N
+F0 "U" 0 300 50 H V L CNN
+F1 "AVMeter-rescue_LM321-Amplifier_Operational" 0 200 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X V- 2 -100 -300 150 U 50 50 1 1 W
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_LM4040DBZ-2.0-Reference_Voltage
+#
+DEF AVMeter-rescue_LM4040DBZ-2.0-Reference_Voltage U 0 1 Y N 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "AVMeter-rescue_LM4040DBZ-2.0-Reference_Voltage" 0 -125 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 -200 50 H I C CIN
+F3 "" 0 0 50 H I C CIN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 0 0 0 50 0 N
+P 4 0 1 8 -50 -50 25 0 -50 50 -50 -50 N
+P 4 0 1 8 0 -50 25 -50 25 50 50 50 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_LT6105-AVMeter
+#
+DEF AVMeter-rescue_LT6105-AVMeter U 0 5 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "AVMeter-rescue_LT6105-AVMeter" 0 -200 50 H V L CNN
+F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 0 0 50 H I C CNN
+F3 "" 50 200 50 H I C CNN
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X - 1 -300 -100 100 R 50 50 1 1 I
+X V+ 2 -100 300 150 D 50 50 1 1 W
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X ~ 5 300 0 100 L 50 50 1 1 C
+X + 8 -300 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_MCP3208-Analog_ADC
+#
+DEF AVMeter-rescue_MCP3208-Analog_ADC U 0 40 Y Y 1 F N
+F0 "U" -200 525 50 H V R CNN
+F1 "AVMeter-rescue_MCP3208-Analog_ADC" -200 450 50 H V R CNN
+F2 "" 100 100 50 H I C CNN
+F3 "" 100 100 50 H I C CNN
+$FPLIST
+ DIP*W7.62mm*
+ SOIC*3.9x9.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+T 0 -25 50 50 0 0 0 ADC Normal 0 C C
+T 900 235 -115 50 0 0 0 CNTRL Normal 0 L B
+T 900 -250 -50 50 0 0 0 MUX Normal 0 C C
+S 150 -150 275 150 0 1 0 N
+S 500 -500 -500 400 0 1 10 f
+P 2 0 1 0 -150 50 -200 50 N
+P 2 0 1 0 75 50 150 50 N
+P 5 0 1 0 -300 350 -300 -450 -200 -400 -200 300 -300 350 N
+P 5 0 1 0 150 -125 -150 -125 -150 -450 -250 -450 -250 -425 N
+P 6 0 1 0 75 125 75 -25 -100 -25 -150 50 -100 125 75 125 N
+X CH0 1 -600 300 100 R 50 50 1 1 I
+X ~CS~/SHDN 10 600 -200 100 L 50 50 1 1 I
+X Din 11 600 -100 100 L 50 50 1 1 I
+X Dout 12 600 0 100 L 50 50 1 1 O
+X CLK 13 600 100 100 L 50 50 1 1 I C
+X AGND 14 -100 -600 100 U 50 50 1 1 W
+X Vref 15 -100 500 100 D 50 50 1 1 W
+X Vdd 16 200 500 100 D 50 50 1 1 W
+X CH1 2 -600 200 100 R 50 50 1 1 I
+X CH2 3 -600 100 100 R 50 50 1 1 I
+X CH3 4 -600 0 100 R 50 50 1 1 I
+X CH4 5 -600 -100 100 R 50 50 1 1 I
+X CH5 6 -600 -200 100 R 50 50 1 1 I
+X CH6 7 -600 -300 100 R 50 50 1 1 I
+X CH7 8 -600 -400 100 R 50 50 1 1 I
+X DGND 9 200 -600 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_R-Device
+#
+DEF AVMeter-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "AVMeter-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_R_POT_TRIM-Device
+#
+DEF AVMeter-rescue_R_POT_TRIM-Device RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "AVMeter-rescue_R_POT_TRIM-Device" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AVMeter-rescue_Screw_Terminal_01x02-Connector
+#
+DEF AVMeter-rescue_Screw_Terminal_01x02-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F1 "AVMeter-rescue_Screw_Terminal_01x02-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +363,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Screw_Terminal_01x03
+# AVMeter-rescue_Screw_Terminal_01x03-Connector
 #
-DEF Connector_Screw_Terminal_01x03 J 0 40 Y N 1 F N
+DEF AVMeter-rescue_Screw_Terminal_01x03-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Screw_Terminal_01x03" 0 -200 50 H V C CNN
+F1 "AVMeter-rescue_Screw_Terminal_01x03-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -269,141 +390,17 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# AVMeter-rescue_VCC-power
 #
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_POT_TRIM
-#
-DEF Device_R_POT_TRIM RV 0 40 Y N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT_TRIM" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 60 30 60 -30 N
-P 2 0 1 0 100 0 60 0 N
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Reference_Voltage_LM4040DBZ-2.0
-#
-DEF Reference_Voltage_LM4040DBZ-2.0 U 0 1 Y N 1 F N
-F0 "U" 0 100 50 H V C CNN
-F1 "Reference_Voltage_LM4040DBZ-2.0" 0 -125 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 -200 50 H I C CIN
-F3 "" 0 0 50 H I C CIN
-ALIAS LM4040DBZ-2.5 LM4040DBZ-3 LM4040DBZ-4.1 LM4040DBZ-5 LM4040DBZ-8.2 LM4040DBZ-10
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-P 3 0 1 0 -50 0 0 0 50 0 N
-P 4 0 1 8 -50 -50 25 0 -50 50 -50 -50 N
-P 4 0 1 8 0 -50 25 -50 25 50 50 50 N
-X K 1 150 0 100 L 50 50 1 1 P
-X A 2 -150 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Regulator_Linear_L7805
-#
-DEF Regulator_Linear_L7805 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_L7805" 0 125 50 H V L CNN
-F2 "" 25 -150 50 H I L CIN
-F3 "" 0 -50 50 H I C CNN
-ALIAS L7806 L7808 L7885 L7809 L7812 L7815 L7818 L7824
-$FPLIST
- TO?252*
- TO?263*
- TO?220*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
+DEF AVMeter-rescue_VCC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
+F1 "AVMeter-rescue_VCC-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# pspice_DIODE
-#
-DEF pspice_DIODE D 0 40 Y N 1 F N
-F0 "D" 0 150 50 H V C CNN
-F1 "pspice_DIODE" 0 -175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 75 100 75 -100 N
-P 3 0 1 0 -75 100 -75 -100 75 0 F
-X K 1 -200 0 150 R 50 50 1 1 I
-X A 2 200 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
