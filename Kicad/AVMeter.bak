@@ -26,7 +26,7 @@ F 3 "http://cds.linear.com/docs/en/datasheet/6106fb.pdf" H 4050 2000 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L AVMeter-rescue:R-Device R3
 U 1 1 5BAC4D2E
 P 3100 1800
 F 0 "R3" H 3170 1846 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "http://cds.linear.com/docs/en/datasheet/6106fb.pdf" H 4050 3550 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L AVMeter-rescue:R-Device R4
 U 1 1 5BAC51DF
 P 3100 3350
 F 0 "R4" H 3170 3396 50  0000 L CNN
@@ -62,15 +62,15 @@ $Comp
 L AVMeter-rescue:LT6105-AVMeter U3
 U 1 1 5BAC525D
 P 4000 4900
-F 0 "U3" H 4000 4700 50  0000 L CNN
-F 1 "LT6105" H 4000 4600 50  0000 L CNN
+F 0 "U3" H 4000 4750 50  0000 L CNN
+F 1 "LT6105" H 4000 4650 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4000 4900 50  0001 C CNN
 F 3 "http://cds.linear.com/docs/en/datasheet/6106fb.pdf" H 4050 5100 50  0001 C CNN
 	1    4000 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L AVMeter-rescue:R-Device R5
 U 1 1 5BAC5264
 P 3100 4900
 F 0 "R5" H 3170 4946 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "~" H 3100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L AVMeter-rescue:R-Device R12
 U 1 1 5BAC5BCF
 P 2050 6700
 F 0 "R12" H 2120 6746 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "~" H 2050 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L AVMeter-rescue:R-Device R13
 U 1 1 5BAC5C0E
 P 2250 7150
 F 0 "R13" H 2320 7196 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "~" H 2250 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L AVMeter-rescue:R-Device R1
 U 1 1 5BAC5D37
 P 850 6700
 F 0 "R1" H 920 6746 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "~" H 850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L AVMeter-rescue:R-Device R2
 U 1 1 5BAC5D3E
 P 1050 7150
 F 0 "R2" H 1120 7196 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "~" H 1050 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L AVMeter-rescue:GND-power #PWR011
 U 1 1 5BAC64BE
 P 3900 2100
 F 0 "#PWR011" H 3900 1850 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 3900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L AVMeter-rescue:GND-power #PWR012
 U 1 1 5BAC651E
 P 3900 3650
 F 0 "#PWR012" H 3900 3400 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L AVMeter-rescue:R-Device R7
 U 1 1 5BAC66CC
 P 3550 1900
 F 0 "R7" V 3650 1950 50  0000 L CNN
@@ -158,7 +158,7 @@ F 3 "~" H 3550 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R6
+L AVMeter-rescue:R-Device R6
 U 1 1 5BAC6C6C
 P 3550 1700
 F 0 "R6" V 3650 1750 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "~" H 3550 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R9
+L AVMeter-rescue:R-Device R9
 U 1 1 5BAC7027
 P 3550 3450
 F 0 "R9" V 3650 3500 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "~" H 3550 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R8
+L AVMeter-rescue:R-Device R8
 U 1 1 5BAC702E
 P 3550 3250
 F 0 "R8" V 3650 3300 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "~" H 3550 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R11
+L AVMeter-rescue:R-Device R11
 U 1 1 5BAC7166
 P 3550 5000
 F 0 "R11" V 3650 5050 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "~" H 3550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R10
+L AVMeter-rescue:R-Device R10
 U 1 1 5BAC716D
 P 3550 4800
 F 0 "R10" V 3650 4850 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "~" H 3550 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L AVMeter-rescue:GND-power #PWR09
 U 1 1 5BAC7F25
 P 2250 7300
 F 0 "#PWR09" H 2250 7050 50  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 2250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L AVMeter-rescue:GND-power #PWR01
 U 1 1 5BAC7F84
 P 1050 7300
 F 0 "#PWR01" H 1050 7050 50  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 1050 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:LM4040DBZ-2.0 D1
+L AVMeter-rescue:LM4040DBZ-2.0-Reference_Voltage D1
 U 1 1 5BAD9129
 P 5850 1900
 F 0 "D1" V 5750 1750 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 5850 1900 50  0001 C CIN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR030
+L AVMeter-rescue:GND-power #PWR030
 U 1 1 5BADA95A
 P 7000 3800
 F 0 "#PWR030" H 7000 3550 50  0001 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 7000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM321 U4
+L AVMeter-rescue:LM321-Amplifier_Operational U4
 U 1 1 5BADCF79
 P 4400 6800
 F 0 "U4" H 4400 6650 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm321.pdf" H 4400 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L AVMeter-rescue:R-Device R19
 U 1 1 5BAE2C1B
 P 3750 6900
 F 0 "R19" V 3850 6900 50  0000 C CNN
@@ -292,7 +292,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 7550 4700 6800
 $Comp
-L power:GND #PWR022
+L AVMeter-rescue:GND-power #PWR022
 U 1 1 5BAE40B8
 P 3850 6350
 F 0 "#PWR022" H 3850 6100 50  0001 C CNN
@@ -305,7 +305,7 @@ $EndComp
 Wire Wire Line
 	4100 6700 4000 6700
 $Comp
-L power:GND #PWR026
+L AVMeter-rescue:GND-power #PWR026
 U 1 1 5BAE506E
 P 4300 7100
 F 0 "#PWR026" H 4300 6850 50  0001 C CNN
@@ -319,7 +319,7 @@ Wire Wire Line
 	4700 6800 5050 6800
 Connection ~ 4700 6800
 $Comp
-L power:GND #PWR021
+L AVMeter-rescue:GND-power #PWR021
 U 1 1 5BAEC1FB
 P 5850 2050
 F 0 "#PWR021" H 5850 1800 50  0001 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 5850 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR020
+L AVMeter-rescue:VCC-power #PWR020
 U 1 1 5BAEC2EA
 P 5850 1150
 F 0 "#PWR020" H 5850 1000 50  0001 C CNN
@@ -365,7 +365,7 @@ Text GLabel 1200 4150 0    50   Input ~ 0
 Text GLabel 1200 4350 0    50   Input ~ 0
 -Vs_Out
 $Comp
-L Device:R R14
+L AVMeter-rescue:R-Device R14
 U 1 1 5BB2B221
 P 4400 1950
 F 0 "R14" H 4470 1996 50  0000 L CNN
@@ -376,7 +376,7 @@ F 3 "~" H 4400 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L AVMeter-rescue:R-Device R15
 U 1 1 5BB2B317
 P 4400 3500
 F 0 "R15" H 4470 3546 50  0000 L CNN
@@ -387,7 +387,7 @@ F 3 "~" H 4400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
+L AVMeter-rescue:R-Device R16
 U 1 1 5BB2B379
 P 4400 5050
 F 0 "R16" H 4470 5096 50  0000 L CNN
@@ -414,7 +414,7 @@ Connection ~ 2250 6900
 Wire Wire Line
 	2250 6900 2250 7000
 $Comp
-L power:VCC #PWR05
+L AVMeter-rescue:VCC-power #PWR05
 U 1 1 5BB3622E
 P 3900 4200
 F 0 "#PWR05" H 3900 4050 50  0001 C CNN
@@ -427,7 +427,7 @@ $EndComp
 Text GLabel 3900 5200 3    50   Input ~ 0
 -Vin
 $Comp
-L power:VCC #PWR025
+L AVMeter-rescue:VCC-power #PWR025
 U 1 1 5BB366F4
 P 4300 6500
 F 0 "#PWR025" H 4300 6350 50  0001 C CNN
@@ -438,7 +438,7 @@ F 3 "" H 4300 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L AVMeter-rescue:R-Device R20
 U 1 1 5BB5DD92
 P 5850 1500
 F 0 "R20" H 5920 1546 50  0000 L CNN
@@ -466,7 +466,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L AVMeter-rescue:GND-power #PWR034
 U 1 1 5BB084D3
 P 9100 4550
 F 0 "#PWR034" H 9100 4300 50  0001 C CNN
@@ -499,7 +499,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3050 7650 3050
 $Comp
-L Connector:Screw_Terminal_01x02 J2
+L AVMeter-rescue:Screw_Terminal_01x02-Connector J2
 U 1 1 5BB33EED
 P 1400 3750
 F 0 "J2" H 1480 3742 50  0000 L CNN
@@ -510,7 +510,7 @@ F 3 "~" H 1400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J3
+L AVMeter-rescue:Screw_Terminal_01x02-Connector J3
 U 1 1 5BB33F59
 P 1400 4050
 F 0 "J3" H 1480 4042 50  0000 L CNN
@@ -521,7 +521,7 @@ F 3 "~" H 1400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J4
+L AVMeter-rescue:Screw_Terminal_01x02-Connector J4
 U 1 1 5BB33FA7
 P 1400 4350
 F 0 "J4" H 1480 4342 50  0000 L CNN
@@ -578,7 +578,7 @@ RW
 Text GLabel 9700 1950 2    63   Input ~ 0
 E
 $Comp
-L power:GND #PWR041
+L AVMeter-rescue:GND-power #PWR041
 U 1 1 5BB4AB7D
 P 1400 2800
 F 0 "#PWR041" H 1400 2550 50  0001 C CNN
@@ -593,7 +593,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 2750 1400 2800
 $Comp
-L power:VCC #PWR040
+L AVMeter-rescue:VCC-power #PWR040
 U 1 1 5BB4F28D
 P 1600 2600
 F 0 "#PWR040" H 1600 2450 50  0001 C CNN
@@ -604,7 +604,7 @@ F 3 "" H 1600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L AVMeter-rescue:GND-power #PWR042
 U 1 1 5BB5237A
 P 1550 1050
 F 0 "#PWR042" H 1550 800 50  0001 C CNN
@@ -615,7 +615,7 @@ F 3 "" H 1550 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR039
+L AVMeter-rescue:VCC-power #PWR039
 U 1 1 5BB56B3A
 P 1300 1350
 F 0 "#PWR039" H 1300 1200 50  0001 C CNN
@@ -626,7 +626,7 @@ F 3 "" H 1300 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV1
+L AVMeter-rescue:R_POT_TRIM-Device RV1
 U 1 1 5BB58FEC
 P 1800 1450
 F 0 "RV1" H 1731 1404 50  0000 R CNN
@@ -639,7 +639,7 @@ $EndComp
 Wire Wire Line
 	1300 1450 1650 1450
 $Comp
-L power:GND #PWR044
+L AVMeter-rescue:GND-power #PWR044
 U 1 1 5BB5B50F
 P 1800 1700
 F 0 "#PWR044" H 1800 1450 50  0001 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 1800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR043
+L AVMeter-rescue:VCC-power #PWR043
 U 1 1 5BB5B59E
 P 1800 1200
 F 0 "#PWR043" H 1800 1050 50  0001 C CNN
@@ -665,7 +665,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1600 1800 1700
 $Comp
-L Analog_ADC:MCP3208 U5
+L AVMeter-rescue:MCP3208-Analog_ADC U5
 U 1 1 5BB661B3
 P 6950 2850
 F 0 "U5" H 7300 3400 50  0000 C CNN
@@ -688,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 6550 2250 6300
 $Comp
-L Device:C C14
+L AVMeter-rescue:C-Device C14
 U 1 1 5BBA5D64
 P 6650 5250
 F 0 "C14" H 6650 5350 50  0000 L CNN
@@ -701,7 +701,7 @@ $EndComp
 Text GLabel 5800 4500 2    63   Input ~ 0
 +6Vin
 $Comp
-L power:GND #PWR036
+L AVMeter-rescue:GND-power #PWR036
 U 1 1 5BBC862F
 P 7400 5550
 F 0 "#PWR036" H 7400 5300 50  0001 C CNN
@@ -712,7 +712,7 @@ F 3 "" H 7400 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L AVMeter-rescue:C-Device C15
 U 1 1 5BBCC8B5
 P 6950 5250
 F 0 "C15" H 6950 5350 50  0000 L CNN
@@ -735,7 +735,7 @@ Text GLabel 3000 3500 0    50   Input ~ 0
 Text GLabel 3000 4750 0    50   Input ~ 0
 -Vs_Out
 $Comp
-L Device:C C10
+L AVMeter-rescue:C-Device C10
 U 1 1 5BBE9A48
 P 6150 1950
 F 0 "C10" H 6150 2050 50  0000 L CNN
@@ -746,7 +746,7 @@ F 3 "~" H 6150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L AVMeter-rescue:C-Device C12
 U 1 1 5BBE9DEA
 P 6550 1950
 F 0 "C12" H 6550 2050 50  0000 L CNN
@@ -757,7 +757,7 @@ F 3 "~" H 6550 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L AVMeter-rescue:GND-power #PWR024
 U 1 1 5BBF3AA2
 P 6150 2100
 F 0 "#PWR024" H 6150 1850 50  0001 C CNN
@@ -768,7 +768,7 @@ F 3 "" H 6150 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L AVMeter-rescue:GND-power #PWR028
 U 1 1 5BBF3B01
 P 6550 2100
 F 0 "#PWR028" H 6550 1850 50  0001 C CNN
@@ -795,7 +795,7 @@ Text GLabel 4850 1800 2    63   Input ~ 0
 Text GLabel 4900 4900 2    63   Input ~ 0
 -I_ADC
 $Comp
-L Device:C C9
+L AVMeter-rescue:C-Device C9
 U 1 1 5BC31C8F
 P 6150 1350
 F 0 "C9" H 6150 1450 50  0000 L CNN
@@ -806,7 +806,7 @@ F 3 "~" H 6150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L AVMeter-rescue:C-Device C11
 U 1 1 5BC31C96
 P 6550 1350
 F 0 "C11" H 6550 1450 50  0000 L CNN
@@ -817,7 +817,7 @@ F 3 "~" H 6550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L AVMeter-rescue:GND-power #PWR023
 U 1 1 5BC31C9D
 P 6150 1500
 F 0 "#PWR023" H 6150 1250 50  0001 C CNN
@@ -828,7 +828,7 @@ F 3 "" H 6150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L AVMeter-rescue:GND-power #PWR027
 U 1 1 5BC31CA3
 P 6550 1500
 F 0 "#PWR027" H 6550 1250 50  0001 C CNN
@@ -854,7 +854,7 @@ Wire Wire Line
 	5850 1150 5850 1200
 Connection ~ 5850 1200
 $Comp
-L Device:C C8
+L AVMeter-rescue:C-Device C8
 U 1 1 5BC4AA1A
 P 4750 5050
 F 0 "C8" H 4865 5096 50  0000 L CNN
@@ -865,7 +865,7 @@ F 3 "~" H 4750 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L AVMeter-rescue:C-Device C7
 U 1 1 5BC4AB38
 P 4750 3500
 F 0 "C7" H 4865 3546 50  0000 L CNN
@@ -876,7 +876,7 @@ F 3 "~" H 4750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L AVMeter-rescue:C-Device C6
 U 1 1 5BC4ABB8
 P 4750 1950
 F 0 "C6" H 4865 1996 50  0000 L CNN
@@ -887,7 +887,7 @@ F 3 "~" H 4750 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L AVMeter-rescue:GND-power #PWR017
 U 1 1 5BC4D877
 P 4750 3700
 F 0 "#PWR017" H 4750 3450 50  0001 C CNN
@@ -898,7 +898,7 @@ F 3 "" H 4750 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L AVMeter-rescue:GND-power #PWR018
 U 1 1 5BC4D8E0
 P 4750 5300
 F 0 "#PWR018" H 4750 5050 50  0001 C CNN
@@ -909,7 +909,7 @@ F 3 "" H 4750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L AVMeter-rescue:GND-power #PWR016
 U 1 1 5BC4DB1F
 P 4750 2200
 F 0 "#PWR016" H 4750 1950 50  0001 C CNN
@@ -920,7 +920,7 @@ F 3 "" H 4750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L AVMeter-rescue:C-Device C4
 U 1 1 5BC63E7A
 P 4050 4350
 F 0 "C4" H 4165 4396 50  0000 L CNN
@@ -931,7 +931,7 @@ F 3 "~" H 4050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L AVMeter-rescue:GND-power #PWR08
 U 1 1 5BC64169
 P 4050 4500
 F 0 "#PWR08" H 4050 4250 50  0001 C CNN
@@ -944,7 +944,7 @@ $EndComp
 Wire Wire Line
 	3900 4600 3900 4200
 $Comp
-L Device:C C1
+L AVMeter-rescue:C-Device C1
 U 1 1 5BCE3B56
 P 1400 7150
 F 0 "C1" H 1515 7196 50  0000 L CNN
@@ -955,7 +955,7 @@ F 3 "~" H 1400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L AVMeter-rescue:C-Device C5
 U 1 1 5BCE3BF2
 P 2600 7150
 F 0 "C5" H 2715 7196 50  0000 L CNN
@@ -966,7 +966,7 @@ F 3 "~" H 2600 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L AVMeter-rescue:C-Device C13
 U 1 1 5BCE3C85
 P 5050 7100
 F 0 "C13" H 5165 7146 50  0000 L CNN
@@ -977,7 +977,7 @@ F 3 "~" H 5050 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L AVMeter-rescue:GND-power #PWR02
 U 1 1 5BCE3F3E
 P 1400 7300
 F 0 "#PWR02" H 1400 7050 50  0001 C CNN
@@ -988,7 +988,7 @@ F 3 "" H 1400 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L AVMeter-rescue:GND-power #PWR010
 U 1 1 5BCE3FB3
 P 2600 7300
 F 0 "#PWR010" H 2600 7050 50  0001 C CNN
@@ -999,7 +999,7 @@ F 3 "" H 2600 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L AVMeter-rescue:GND-power #PWR029
 U 1 1 5BCE4028
 P 5050 7250
 F 0 "#PWR029" H 5050 7000 50  0001 C CNN
@@ -1025,7 +1025,7 @@ Connection ~ 5050 6800
 Wire Wire Line
 	5050 6800 5200 6800
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J6
+L AVMeter-rescue:Conn_02x03_Odd_Even-Connector_Generic J6
 U 1 1 5BBB6A1A
 P 1300 3400
 F 0 "J6" H 1350 3625 50  0000 C CNN
@@ -1042,7 +1042,7 @@ SCK
 Text GLabel 1600 3400 2    50   Input ~ 0
 MOSI
 $Comp
-L power:GND #PWR045
+L AVMeter-rescue:GND-power #PWR045
 U 1 1 5BBB6EFE
 P 1700 3550
 F 0 "#PWR045" H 1700 3300 50  0001 C CNN
@@ -1060,7 +1060,7 @@ Wire Wire Line
 	4050 4200 3900 4200
 Connection ~ 3900 4200
 $Comp
-L power:VCC #PWR04
+L AVMeter-rescue:VCC-power #PWR04
 U 1 1 5BC094E0
 P 3900 2650
 F 0 "#PWR04" H 3900 2500 50  0001 C CNN
@@ -1071,7 +1071,7 @@ F 3 "" H 3900 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L AVMeter-rescue:C-Device C3
 U 1 1 5BC094E6
 P 4050 2800
 F 0 "C3" H 4165 2846 50  0000 L CNN
@@ -1082,7 +1082,7 @@ F 3 "~" H 4050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L AVMeter-rescue:GND-power #PWR07
 U 1 1 5BC094ED
 P 4050 2950
 F 0 "#PWR07" H 4050 2700 50  0001 C CNN
@@ -1098,7 +1098,7 @@ Wire Wire Line
 	4050 2650 3900 2650
 Connection ~ 3900 2650
 $Comp
-L power:VCC #PWR03
+L AVMeter-rescue:VCC-power #PWR03
 U 1 1 5BC0E192
 P 3900 1100
 F 0 "#PWR03" H 3900 950 50  0001 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 3900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L AVMeter-rescue:C-Device C2
 U 1 1 5BC0E198
 P 4050 1250
 F 0 "C2" H 4165 1296 50  0000 L CNN
@@ -1120,7 +1120,7 @@ F 3 "~" H 4050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L AVMeter-rescue:GND-power #PWR06
 U 1 1 5BC0E19F
 P 4050 1400
 F 0 "#PWR06" H 4050 1150 50  0001 C CNN
@@ -1235,7 +1235,7 @@ Wire Notes Line
 Wire Notes Line
 	5600 4300 5600 5950
 $Comp
-L Connector_Generic:Conn_01x16 J1
+L AVMeter-rescue:Conn_01x16-Connector_Generic J1
 U 1 1 5BDF307D
 P 1100 1950
 F 0 "J1" H 1050 2900 50  0000 L CNN
@@ -1289,7 +1289,7 @@ Wire Notes Line
 Wire Notes Line
 	650  7700 5700 7700
 $Comp
-L Device:R R22
+L AVMeter-rescue:R-Device R22
 U 1 1 5BF993A5
 P 10350 1950
 F 0 "R22" V 10450 1900 50  0000 L CNN
@@ -1300,7 +1300,7 @@ F 3 "~" H 10350 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R24
+L AVMeter-rescue:R-Device R24
 U 1 1 5BF997CE
 P 10350 2550
 F 0 "R24" V 10450 2500 50  0000 L CNN
@@ -1311,7 +1311,7 @@ F 3 "~" H 10350 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R23
+L AVMeter-rescue:R-Device R23
 U 1 1 5BF9AAD7
 P 10350 2250
 F 0 "R23" V 10450 2200 50  0000 L CNN
@@ -1365,7 +1365,7 @@ Wire Notes Line
 Wire Notes Line
 	8300 800  11000 800 
 $Comp
-L power:VCC #PWR035
+L AVMeter-rescue:VCC-power #PWR035
 U 1 1 5BB047C2
 P 9200 1200
 F 0 "#PWR035" H 9200 1050 50  0001 C CNN
@@ -1386,7 +1386,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6250 4000 6700
 $Comp
-L Device:C C16
+L AVMeter-rescue:C-Device C16
 U 1 1 5C0380F8
 P 9750 1300
 F 0 "C16" H 9750 1400 50  0000 L CNN
@@ -1397,7 +1397,7 @@ F 3 "~" H 9750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L AVMeter-rescue:GND-power #PWR0101
 U 1 1 5C038197
 P 9750 1450
 F 0 "#PWR0101" H 9750 1200 50  0001 C CNN
@@ -1422,7 +1422,7 @@ Wire Notes Line
 Wire Notes Line
 	11000 800  11000 4950
 $Comp
-L power:GND #PWR038
+L AVMeter-rescue:GND-power #PWR038
 U 1 1 5BBBCE64
 P 1100 4900
 F 0 "#PWR038" H 1100 4650 50  0001 C CNN
@@ -1439,7 +1439,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4850 1100 4900
 $Comp
-L pspice:DIODE D2
+L AVMeter-rescue:DIODE-pspice D2
 U 1 1 5BCC443F
 P 5800 4850
 F 0 "D2" V 5900 5000 50  0000 C CNN
@@ -1450,7 +1450,7 @@ F 3 "" H 5800 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C17
+L AVMeter-rescue:C-Device C17
 U 1 1 5BCEC2DA
 P 7850 5250
 F 0 "C17" H 7965 5296 50  0000 L CNN
@@ -1461,7 +1461,7 @@ F 3 "~" H 7850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L7805 U7
+L AVMeter-rescue:L7805-Regulator_Linear U7
 U 1 1 5BC37283
 P 7400 5050
 F 0 "U7" H 7400 5292 50  0000 C CNN
@@ -1472,7 +1472,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR037
+L AVMeter-rescue:VCC-power #PWR037
 U 1 1 5BBCB664
 P 7850 4950
 F 0 "#PWR037" H 7850 4800 50  0001 C CNN
@@ -1498,7 +1498,7 @@ Wire Notes Line
 Wire Notes Line
 	5600 4300 8200 4300
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L AVMeter-rescue:Conn_01x02-Connector_Generic J7
 U 1 1 5BCFCA50
 P 1400 5350
 F 0 "J7" H 1480 5342 50  0000 L CNN
@@ -1509,7 +1509,7 @@ F 3 "~" H 1400 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L AVMeter-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5BCFCBD9
 P 1400 5650
 F 0 "J8" H 1480 5642 50  0000 L CNN
@@ -1533,7 +1533,7 @@ BTN1
 Text GLabel 9700 2950 2    50   Input ~ 0
 BTN2
 $Comp
-L power:VCC #PWR0102
+L AVMeter-rescue:VCC-power #PWR0102
 U 1 1 5BD2C062
 P 850 5300
 F 0 "#PWR0102" H 850 5150 50  0001 C CNN
@@ -1549,7 +1549,7 @@ Wire Wire Line
 	850  5750 850  5450
 Connection ~ 850  5450
 $Comp
-L power:VCC #PWR0103
+L AVMeter-rescue:VCC-power #PWR0103
 U 1 1 5BD51DC9
 P 1700 3200
 F 0 "#PWR0103" H 1700 3050 50  0001 C CNN
@@ -1568,7 +1568,7 @@ Wire Notes Line
 Wire Notes Line
 	2400 800  2400 6000
 $Comp
-L Device:R R25
+L AVMeter-rescue:R-Device R25
 U 1 1 5BD8455B
 P 1250 6700
 F 0 "R25" H 1320 6746 50  0000 L CNN
@@ -1579,7 +1579,7 @@ F 3 "~" H 1250 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L AVMeter-rescue:R-Device R26
 U 1 1 5BD848D7
 P 2450 6700
 F 0 "R26" H 2520 6746 50  0000 L CNN
@@ -1638,7 +1638,7 @@ Text GLabel 6350 2650 0    50   Input ~ 0
 Wire Notes Line
 	5600 4050 8150 4050
 $Comp
-L Device:R R21
+L AVMeter-rescue:R-Device R21
 U 1 1 5BAE2B7E
 P 4350 7550
 F 0 "R21" V 4450 7550 50  0000 C CNN
@@ -1649,7 +1649,7 @@ F 3 "~" H 4350 7550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C19
+L AVMeter-rescue:C-Device C19
 U 1 1 5CB27C2D
 P 6350 5250
 F 0 "C19" H 6350 5350 50  0000 L CNN
@@ -1660,7 +1660,7 @@ F 3 "~" H 6350 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L AVMeter-rescue:C-Device C18
 U 1 1 5CB28157
 P 6050 5250
 F 0 "C18" H 6050 5350 50  0000 L CNN
@@ -1678,7 +1678,7 @@ Connection ~ 5800 5050
 Wire Wire Line
 	5800 4500 5800 4650
 $Comp
-L Device:C C20
+L AVMeter-rescue:C-Device C20
 U 1 1 5CB6B56E
 P 5800 5250
 F 0 "C20" H 5800 5350 50  0000 L CNN
@@ -1735,7 +1735,7 @@ Wire Wire Line
 Text GLabel 1200 4750 0    50   Input ~ 0
 -Vin
 $Comp
-L Connector:Screw_Terminal_01x03 J5
+L AVMeter-rescue:Screw_Terminal_01x03-Connector J5
 U 1 1 5D5220A3
 P 1400 4750
 F 0 "J5" H 1480 4746 50  0000 L CNN
@@ -1745,4 +1745,28 @@ F 3 "~" H 1400 4750 50  0001 C CNN
 	1    1400 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L AVMeter-rescue:C-Device C?
+U 1 1 5D510CE0
+P 4050 5350
+F 0 "C?" H 4165 5396 50  0000 L CNN
+F 1 "220nf" H 4165 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4088 5200 50  0001 C CNN
+F 3 "~" H 4050 5350 50  0001 C CNN
+	1    4050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVMeter-rescue:GND-power #PWR?
+U 1 1 5D511CD9
+P 4050 5500
+F 0 "#PWR?" H 4050 5250 50  0001 C CNN
+F 1 "GND" H 4055 5327 50  0000 C CNN
+F 2 "" H 4050 5500 50  0001 C CNN
+F 3 "" H 4050 5500 50  0001 C CNN
+	1    4050 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5200 3900 5200
 $EndSCHEMATC

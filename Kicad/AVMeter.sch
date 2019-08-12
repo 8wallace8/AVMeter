@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AVMeter"
-Date ""
-Rev "1.0"
+Date "2019-08-11"
+Rev "1.2"
 Comp ""
-Comment1 ""
+Comment1 "Fixes both issues found in revisions 1.0 and 1.1"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1746,10 +1746,10 @@ F 3 "~" H 1400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVMeter-rescue:C-Device C?
+L AVMeter-rescue:C-Device C21
 U 1 1 5D510CE0
 P 4050 5350
-F 0 "C?" H 4165 5396 50  0000 L CNN
+F 0 "C21" H 4165 5396 50  0000 L CNN
 F 1 "220nf" H 4165 5305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4088 5200 50  0001 C CNN
 F 3 "~" H 4050 5350 50  0001 C CNN
@@ -1757,10 +1757,10 @@ F 3 "~" H 4050 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVMeter-rescue:GND-power #PWR?
+L AVMeter-rescue:GND-power #PWR0104
 U 1 1 5D511CD9
 P 4050 5500
-F 0 "#PWR?" H 4050 5250 50  0001 C CNN
+F 0 "#PWR0104" H 4050 5250 50  0001 C CNN
 F 1 "GND" H 4055 5327 50  0000 C CNN
 F 2 "" H 4050 5500 50  0001 C CNN
 F 3 "" H 4050 5500 50  0001 C CNN
